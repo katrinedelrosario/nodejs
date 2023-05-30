@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/katrinedelrosario/nodejs/issues"
   },
-  "homepage": "https://github.com/katrinedelrosario/nodejs#readme"
+  "homepage": "https://github.com/katrinedelrosario/nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
