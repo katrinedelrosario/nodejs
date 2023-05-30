@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learning nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katrinedelrosario/nodejs.git"
+  },
+  "author": "Katrine del Rosario",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katrinedelrosario/nodejs/issues"
+  },
+  "homepage": "https://github.com/katrinedelrosario/nodejs#readme"
+}
