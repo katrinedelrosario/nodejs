@@ -1,9 +1,12 @@
-import http from 'http';
+import express from 'express'
 
-http.createServer((req, res) => {
-    res.writeHead(400, {'Content-Type': 'text/html'}),
-    res.write('hiii world')
-    res.end()
-}).listen(4000, () => {
-    console.log('node server is running on http://localhost:4000')
-}) 
+const app = express() 
+
+app.listen(4242, () => {
+    console.log('express server is running on http://localhost:4242');
+})
+
+app.get("/", (req, res) => {
+    res.send('hii world');
+})
+
