@@ -8,7 +8,7 @@ postRouter.get('/', (req, res)=>{
      res.send("gets all posters")
 })
 postRouter.post('/create', (req, res)=>{
-     res.send(`${req.body.firstname}${req.body.Lastname}
+     res.send(`${req.body.firstname}${req.body.lastname}
                ${req.body.email}${req.body.birthdate}
                ${req.body.address} ${req.body.occupation}
               ${req.body.password}`
